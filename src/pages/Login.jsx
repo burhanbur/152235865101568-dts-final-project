@@ -21,7 +21,7 @@ const Login = () => {
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
                 <h1 className="text-3xl font-semibold text-center text-blue-700 underline">
-                    Sign in
+                    Sign In
                 </h1>
                 <div className="mt-6">
                     <div className="mb-2">
@@ -54,7 +54,7 @@ const Login = () => {
                             placeholder="Password"
                         />
                     </div>
-                    <Link to="#"
+                    <Link to="/reset"
                         className="text-xs text-blue-600 hover:underline">
                         Forget Password?
                     </Link>
@@ -94,7 +94,7 @@ const Login = () => {
                         to="/register"
                         className="font-medium text-blue-600 hover:underline"
                     >
-                        Sign up
+                        Sign Up
                     </Link>
                 </p>
             </div>

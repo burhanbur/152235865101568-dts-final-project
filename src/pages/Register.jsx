@@ -29,8 +29,8 @@ function Register() {
     return (
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
-                <h1 className="text-3xl font-semibold text-center text-blue-700 uppercase">
-                    Registration
+                <h1 className="text-3xl font-semibold text-center text-blue-700">
+                    Sign Up
                 </h1>
                 <div className="mt-6">
                     <div className="mb-2">
@@ -93,7 +93,7 @@ function Register() {
                         to="/login"
                         className="font-medium text-blue-600 hover:underline"
                     >
-                        Sign in instead
+                        Sign In instead
                     </Link>
                 </p>
             </div>
