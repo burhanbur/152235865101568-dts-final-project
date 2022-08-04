@@ -96,7 +96,7 @@ export default function Navbar() {
                             {menuItems.map((menu, index) => {
                                 return (
                                     <li className="text-gray-600 hover:text-blue-600">
-                                        <NavLink to="#">{menu.title}</NavLink>
+                                        <NavLink to="/">{menu.title}</NavLink>
                                     </li>
                                 )
                             })}
@@ -119,16 +119,6 @@ export default function Navbar() {
                                 >
                                     <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                                         <div className="py-1">
-                                            <Menu.Item>
-                                                {({ active }) => (
-                                                    <NavLink to="#" className={classNames(
-                                                        active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                        'block px-4 py-2 text-sm'
-                                                    )}>
-                                                        Profile
-                                                    </NavLink>
-                                                )}
-                                            </Menu.Item>
                                             <Menu.Item>
                                                 {({ active }) => (
                                                     <NavLink to="#" onClick={signOut} className={classNames(

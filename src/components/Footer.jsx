@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="bg-gray-200 text-center lg:text-left">
             <div class="pt-4">
                 <div class="flex justify-center">
-                    <a href="https://www.facebook.com/burhan.mafazi/" target="_blank" class="mr-9 text-gray-800">
+                    <a href="https://www.facebook.com/burhan.mafazi/" target="_blank" rel="noreferrer" class="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -22,7 +22,7 @@ const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="https://instagram.com/burhanmaf/" target="_blank" class="mr-9 text-gray-800">
+                    <a href="https://instagram.com/burhanmaf/" target="_blank" rel="noreferrer" class="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -39,7 +39,7 @@ const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/burhanmafazi/" target="_blank" class="mr-9 text-gray-800">
+                    <a href="https://www.linkedin.com/in/burhanmafazi/" target="_blank" rel="noreferrer" class="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -56,7 +56,7 @@ const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="https://github.com/burhanbur" target="_blank" class="text-gray-800">
+                    <a href="https://github.com/burhanbur" target="_blank" rel="noreferrer" class="text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
